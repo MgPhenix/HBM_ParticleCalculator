@@ -12,7 +12,7 @@ bool InitSDL3(const char* windowName, int windW, int windH, SDL_Window** window,
 		return false;
 	}
 
-	SDL_CreateWindowAndRenderer("Test", 800, 800, SDL_WINDOW_RESIZABLE, window, renderer);
+	SDL_CreateWindowAndRenderer(windowName, 800, 800, SDL_WINDOW_RESIZABLE /*| SDL_WINDOW_BORDERLESS*/, window, renderer);
 
 	if (!window)
 	{

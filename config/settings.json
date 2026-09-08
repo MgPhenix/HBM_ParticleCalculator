@@ -21,7 +21,7 @@
             },
             "dependencies": ["7C6D6D06-730D-3BB1-6B0F-34C835102D10"],
             "dependents": [],
-            "name": "Test",
+            "name": "App",
             "property-lib": false,
             "property-pch": false,
             "property-vcpkg": false,
